@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Prata&display=swap&subset=cyrillic);
+
+/* roboto-regular - latin_cyrillic_cyrillic-ext */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-regular.eot"); /* IE9 Compat Modes */
+	src: local("Roboto"), local("Roboto-Regular"),
+		url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-regular.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-regular.woff2")
+			format("woff2"),
+		/* Super Modern Browsers */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-regular.woff")
+			format("woff"),
+		/* Modern Browsers */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-regular.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-regular.svg#Roboto")
+			format("svg"); /* Legacy iOS */
+}
+/* roboto-500 - latin_cyrillic_cyrillic-ext */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	src: url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-500.eot"); /* IE9 Compat Modes */
+	src: local("Roboto Medium"), local("Roboto-Medium"),
+		url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-500.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-500.woff2")
+			format("woff2"),
+		/* Super Modern Browsers */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-500.woff")
+			format("woff"),
+		/* Modern Browsers */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-500.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-500.svg#Roboto")
+			format("svg"); /* Legacy iOS */
+}
+/* roboto-700 - latin_cyrillic_cyrillic-ext */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	src: url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-700.eot"); /* IE9 Compat Modes */
+	src: local("Roboto Bold"), local("Roboto-Bold"),
+		url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-700.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-700.woff2")
+			format("woff2"),
+		/* Super Modern Browsers */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-700.woff")
+			format("woff"),
+		/* Modern Browsers */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-700.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("/fonts/Roboto/roboto-v19-latin_cyrillic_cyrillic-ext-700.svg#Roboto")
+			format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: "Material Icons";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialicons/v43/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+		format("woff2");
+}
+
+.material-icons {
+	font-family: "Material Icons";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: "liga";
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+
+	& h1 {
+		font-family: "Prata", serif;
+		text-transform: uppercase;
+		font-size: clamp(22px, 6vw, 70px);
+		font-weight: normal;
+		color: #2b92c8;
+	}
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Список новостей</title>
+	<link rel="stylesheet" href="/css/master.css" />
+
+</head>
+
+<body>
+	<header>
+		<div class="full_width flex-block">
+			<div class="header_left">
+				<div class="header_logo">
+					<a href="/"><img src="/templates/akvaug/resource/img/header_logo.png" alt="Логотип" /></a>
+				</div>
+				<div class="mobile header_menu_mobile">
+					<a></a>
+				</div>
+				<div class="header_menu desktop">
+					<ul>
+						<li class="active">
+							<a href="/o-kompanii-akva-yug/">О Компании</a>
+							<div class="header_menu_hover"></div>
+						</li>
+						<li>
+							<a href="/kontakty-akva-yug/">Контакты</a>
+							<div class="header_menu_hover"></div>
+						</li>
+						<li>
+							<a href="/dostavka-i-oplata-akva-yug/">Оплата и доставка</a>
+							<div class="header_menu_hover"></div>
+						</li>
+						<li>
+							<a href="/catalog/voda/">Каталог</a>
+							<div class="header_menu_hover"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header_right">
+				<div class="header_right_phone desktop">
+					<!-- <a href="tel:88612595559">8-861-259-55-59</a> -->
+					<!-- <a href="tel:89882484404">8-988-248-44-04</a> -->
+					<a href="tel:+79528220000">8-952-822-00-00</a>
+				</div>
+				<div class="header_user">
+					<div class="desktop">
+						<div class="auth alignright no_authorized">
+							<a href="/auth/?referer=%252Fo-kompanii-akva-yug%252F" class="auth inDialog" title="Войти или зарегистрироваться">Вход / Регистрация</a>
+						</div>
+					</div>
+					<div class="mobile">
+						<div class="auth alignright no_authorized">
+							<a href="/auth/?referer=%252Fo-kompanii-akva-yug%252F" class="auth inDialog" title="Войти или зарегистрироваться"><img src="/templates/akvaug/resource/img/user_black.png" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="header_cart" id="rs-cart">
+					<a href="/cart/" class="header-cart-icon">
+						<img class="header-bottom-icons__icon" src="/templates/akvaug/resource/img/icons/basket_black.png" alt="Корзина" title="Корзина" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<div class="list-header">
+							<h1>Новости</h1>
+							<div class="waves"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row flex" id="news-wrapper">
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news1.jpg" alt="Питьевой режим для школьников" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">21 августа 2023 г.</div>
+								<div class="title">Питьевой режим для школьников</div>
+								<div class="description">
+									Вода – жизненно важный элемент для всех процессов, которые происходят в организме как…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news2.jpg" alt="Как распознать жажду?" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">14 августа 2023 г.</div>
+								<div class="title">Как распознать жажду?</div>
+								<div class="description">
+									Как распознать жажду, если ее не чувствуешь?🤔 <br /> 🔹Прилив крови к лицу. Это явление можно наблюдать…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news3.jpg" alt="Насладитесь полезной и чистой водой!" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">25 июля 2023 г.</div>
+								<div class="title">Насладитесь полезной и чистой водой!</div>
+								<div class="description">
+									Артезианская вода «Мирабель» соответствует высоким стандартам производства качественной…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news4.jpg" alt="Новинка в ассортименте!" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">7 июля 2023 г.</div>
+								<div class="title">Новинка в ассортименте!</div>
+								<div class="description">
+									Горная вода «Домбай Ульген» – природная минеральная вода из самого сердца…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news5.jpg" alt="Расписание работы магазина Мир Воды в майские праздники 2023" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">28 апреля 2023 г.</div>
+								<div class="title">Расписание работы магазина Мир Воды в майские праздники 2023</div>
+								<div class="description">
+									Праз­днич­ные дни на­ча­лись, но мы не от­ды­ха­ем! За­яв­ки на…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news6.jpg" alt="Приведите друга и получите подарок!" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">3 февраля 2023 г.</div>
+								<div class="title">Приведите друга и получите подарок!</div>
+								<div class="description">
+									Если вы рекомендуете нас своим друзьям, то мы доставим вам подарок с вашим заказом!…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news7.jpg" alt="С Новым годом!" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">29 декабря 2022 г.</div>
+								<div class="title">С Новым годом!</div>
+								<div class="description">
+									Друзья, поздравляем с наступающим 2023 годом и Рождеством! Хотим пожелать всем нам стабильности,…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news8.jpg" alt="Наша Чёрная пятница до 30.12.2022!" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">28 ноября 2022 г.</div>
+								<div class="title">Наша Чёрная пятница до 30.12.2022!</div>
+								<div class="description">
+									Мы к вам с отличными новостями! Сегодня у нас стартует акция "Черная пятница"! И продлится она до…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news9.jpg" alt="Узнавайте больше вместе с нами!" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">24 ноября 2023 г.</div>
+								<div class="title">Узнавайте больше вместе с нами!</div>
+								<div class="description">
+									Друзья, мы пишем не только о воде и кулерах! Вы с нами узнаете больше о питании, здоровом образе жизни,…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news10.jpg" alt="Как сэкономить на воде" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">10 ноября 2023 г.</div>
+								<div class="title">Как сэкономить на воде</div>
+								<div class="description">
+									Если вам до сих пор кажется, что ваши деньги после посещения супермаркета как будто "канули в Лету", ну то есть ушли на воду, которая дорожает с каждым днём,…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news11.jpg" alt="4 ноября - День народного единства" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">3 ноября 2023 г.</div>
+								<div class="title">4 ноября - День народного единства</div>
+								<div class="description">
+									4 ноября Россия отмечает День народного единства. Но не каждый знает, что произошло в этот день и почему он стал праздничным…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col xl4 l6 m6 s6 xs12 margin-bottom">
+						<div class="news-card">
+							<div class="news-image">
+								<a href="/news-page.html">
+									<img src="/img/news/news12.jpg" alt="Заботьтесь о здоровье детей с " Эльбрусинкой Детской"!" class="responsive-img" />
+								</a>
+							</div>
+							<div class="news-content">
+								<div class="date">13 октября 2023 г.</div>
+								<div class="title">Заботьтесь о здоровье детей с "Эльбрусинкой Детской"!</div>
+								<div class="description">
+									Заботьтесь о здоровье детей с нашей водой! "Эльбрусинка Детская" - это несомненный повод для…
+									<a href="/news-page.html">ещё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<ul class="pagination">
+							<li><a href="" class="page">‹</a></li>
+							<li><a href="" class="page">1</a></li>
+							<li><span>…</span></li>
+							<li><a href="" class="page">6</a></li>
+							<li><a href="" class="page">7</a></li>
+							<li><a href="" class="page active">8</a></li>
+							<li><span>…</span></li>
+							<li><a href="" class="page">21</a></li>
+							<li><a href="" class="page">›</a></li>
+						</ul>
+					</div>
+					<div class="mobile-pagination">
+						<a href="">« Назад</a> | <a href="">Вперёд »</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer_wrap full_width">
+			<div class="footer_left">
+				<div class="footer_logo">
+					<a href="/"><img src="/templates/akvaug/resource/img/footer_logo.png" /></a>
+				</div>
+				<div class="footer_menu">
+					<div class="footer_menu_about">
+						<a class="footer_menu_title" href="/o-kompanii-akva-yug/">О Компании</a>
+						<ul>
+							<li><a href="/kontakty-akva-yug/">Контакты</a></li>
+							<li>
+								<a href="/magaziny-akva-yug/">адреса магазинов</a>
+							</li>
+							<li><a href="/rekvizity-akva-yug/">реквизиты</a></li>
+						</ul>
+					</div>
+					<div class="footer_menu_user">
+						<a class="footer_menu_title" href="/polzovatelyu-akva-yug/">Покупателям</a>
+						<ul>
+							<li><a href="/text-news-akva-yug/">новости</a></li>
+							<li>
+								<a href="/dostavka-i-oplata-akva-yug/">оплата и доставка</a>
+							</li>
+							<li>
+								<a href="/polzovatelyu-akva-yug/">пользователю</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer_right">
+				<p>
+					Заказать доставку<br />
+					можно по телефонам:
+				</p>
+
+				<div class="footer_phone2">
+					<div class="footer_phone">
+						<a href="tel:+79528220000">8-952-822-00-00</a>
+					</div>
+					<div class="footer_phone">
+						<a href="tel: 89615922323">8-961-592-23-23</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/js/master.js"></script>
+</body>
+
+</html>
